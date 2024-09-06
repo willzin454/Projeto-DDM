@@ -33,4 +33,10 @@ class Cliente {
   void eEmailVazio() {
     if (email.isEmpty) throw Exception("Email não pode ser vazio!");
   }
+
+  Future<DTOCliente> incluir() async {
+    return await dao.salvar(dto);
+  }
+
+  bool 
 }
