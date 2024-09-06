@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
-import 'package:flutter_application_2/app/script.dart';
+import 'package:flutter_application_2/app/banco/script.dart';
 
-void main() async {
+main() async {
   setUpAll(() {
     databaseFactory = databaseFactoryFfi;
     sqfliteFfiInit();

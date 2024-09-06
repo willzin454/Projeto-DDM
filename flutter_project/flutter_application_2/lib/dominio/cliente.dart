@@ -2,6 +2,7 @@ import 'package:flutter_application_2/dominio/dto/dto_cliente.dart';
 import 'package:flutter_application_2/dominio/inteface/i_dao_cliente.dart';
 
 class Cliente {
+  late dynamic? id;
   late String nome;
   late String CPF;
   late String email;

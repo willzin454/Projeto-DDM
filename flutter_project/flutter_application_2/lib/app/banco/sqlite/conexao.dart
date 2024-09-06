@@ -1,4 +1,4 @@
-import 'package:flutter_application_2/app/script.dart';
+import 'package:flutter_application_2/app/banco/script.dart';
 import 'package:path/path.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 

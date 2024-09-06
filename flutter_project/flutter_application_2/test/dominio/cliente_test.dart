@@ -3,7 +3,7 @@ import 'package:flutter_application_2/dominio/inteface/i_dao_cliente.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_application_2/dominio/dto/dto_cliente.dart';
 
-void main() {
+main() {
   group("Cliente", () {
     test('Deve criar um cliente válido e salvar os dados', () {
       final dto =
